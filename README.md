@@ -19,6 +19,10 @@ What code is there, and what does it do?
 
 ## Rendered output
 
-The rendered output for the abalone-pH model is [here](https://isaacmiller1113.github.io/workshop-07_winter-2026/code/abalone-example.html).
+The rendered output for the abalone-pH model is [here](https://isaacmiller1113.github.io/workshop-07_winter-2026/code/abalone-example.html).   
+
+
+The rendered output for the Sonadora temperature-elevation model is [here](https://isaacmiller1113.github.io/workshop-07_winter-2026/code/sonadora-temperature-example.html).
+
 
 
