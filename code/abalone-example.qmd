@@ -1,6 +1,6 @@
 ---
 title: "Linear regression: Abalone growth and pH example"
-author: "Isaac Millere"
+author: "Isaac Miller"
 date: "2026-02-24"
 format:
   html:
@@ -39,13 +39,13 @@ H~A~: **pH predicts abalone growth (change in shell surface area per day, mm^-2^
 ## b. Cleaning
 
 ```{r abalone-data-cleaning}
-# 
-abalone_clean <- abalone  
-  # 
-  clean_names()  
-  # 
-  select(mean_p_h, change_in_area_mm2_d_1_25)  
-  # 
+# creating a new object called abalone_clean from the abalone data frame
+abalone_clean <- abalone |> 
+  # cleaning column names
+  clean_names() |> 
+  # selected the comlumns of interest 
+  select(mean_p_h, change_in_area_mm2_d_1_25) |> 
+  # renaming columns for clarity 
   rename(mean_ph = mean_p_h, 
          change_in_area = change_in_area_mm2_d_1_25)
 ```
