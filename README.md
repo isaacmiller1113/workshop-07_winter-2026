@@ -1,21 +1,18 @@
 # workshop-07_winter-2026
+
 Week 7 workshop: linear models
-
-This is a README! It tells you what is in the GitHub repo.
-
-All READMEs for this class should have the following sections:
 
 ## General information
 
-What is this repo for?
+This repository contains two examples for running linear models.
 
-Whose repo is it? Who is contributing to it?
+This is my personal repo forked from the ENVS-193DS-2026  organization. I am the sole contributor. 
 
 ## Data and file information
 
-What files are there?
+All code files are in the `code` folder, these are .qmd files that have contained models for abalone-pH (`abalone-example.qmd`) and temperature-elevation (`sonadora-temperature-example.qmd`).
 
-What code is there, and what does it do?
+Both files indlude code for creating linear models, checking model diagnostics, creating predictions, and visualizing predictions. 
 
 ## Rendered output
 
